@@ -1,0 +1,121 @@
+/* ### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--primary-color);
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+.card {
+    background-color: var(--white);
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid var(--black);
+    transform: translate(100%, 30%);
+    -webkit-transform: translate(100%, 30%);
+    -moz-transform: translate(100%, 30%);
+    -ms-transform: translate(100%, 30%);
+    -o-transform: translate(100%, 30%);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 10px 10px 0 var(--black);
+}
+
+@media (max-width: 767px) {
+    .card {
+        transform: translate(5%, 30%);
+        -webkit-transform: translate(5%, 30%);
+        -moz-transform: translate(5%, 30%);
+        -ms-transform: translate(5%, 30%);
+        -o-transform: translate(5%, 30%);
+    }
+}
+
+.card .image img {
+    width: 100%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.card .learning {
+    margin: 15px 0;
+}
+
+.card .learning h3 {
+    background-color: var(--primary-color);
+    color: var(--black);
+    padding: 5px 10px;
+    width: fit-content;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.card .learning p {
+    text-transform: capitalize;
+}
+
+.card .foundations h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card .foundations h2>span {
+    text-transform: none;
+}
+
+.card p {
+    margin: 20px 0;
+    color: var(--grey);
+    max-width: 333px;
+}
+
+.card .personale-info {
+    display: flex;
+    align-items: center;
+}
+
+.card .personale-info img {
+    width: 30px;
+    margin-right: 10px;
+}
