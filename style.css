@@ -41,11 +41,11 @@ h3 {
     width: fit-content;
     padding: 20px;
     border: 1px solid var(--black);
-    transform: translate(100%, 30%);
-    -webkit-transform: translate(100%, 30%);
-    -moz-transform: translate(100%, 30%);
-    -ms-transform: translate(100%, 30%);
-    -o-transform: translate(100%, 30%);
+    transform: translate(155%, 30%);
+    -webkit-transform: translate(155%, 30%);
+    -moz-transform: translate(155%, 30%);
+    -ms-transform: translate(155%, 30%);
+    -o-transform: translate(155%, 30%);
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -56,11 +56,12 @@ h3 {
 
 @media (max-width: 767px) {
     .card {
-        transform: translate(5%, 30%);
-        -webkit-transform: translate(5%, 30%);
-        -moz-transform: translate(5%, 30%);
-        -ms-transform: translate(5%, 30%);
-        -o-transform: translate(5%, 30%);
+        transform: translate(1%, 30%);
+        -webkit-transform: translate(1%, 30%);
+        -moz-transform: translate(1%, 30%);
+        -ms-transform: translate(1%, 30%);
+        -o-transform: translate(1%, 30%);
+        margin: 0 25px;
     }
 }
 
